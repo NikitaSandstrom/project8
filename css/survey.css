@@ -11,12 +11,29 @@ form {
   display: inline-block;
 }
 
+form :focus {
+    background-color: #99ff99;
+}
+
+input[type=radio]:focus + label{
+    color: orange;
+}
+
 .container{
   text-align: center;
 }
 .newsletter{
   text-align: right;
 
+}
+
+fieldset {
+    border: none;    
+}
+
+legend{
+    color: #bfbfbf;
+    font-size: 36px;
 }
 
 
